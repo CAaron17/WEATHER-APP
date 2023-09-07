@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgb(15, 23, 42),
+    rgb(88, 28, 135),
+    rgb(15, 23, 42)
+  );
+}
+.general-container {
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  height: 60vh;
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.general-container form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.general-container form input {
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.general-container form button {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.general-container .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.general-container .card img {
+  width: 220px;
+}
+.general-container .card h2 {
+  font-size: 2.5em;
+}
+.general-container .card h1 {
+  font-size: 3em;
+}
